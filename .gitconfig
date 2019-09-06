@@ -1,0 +1,23 @@
+[core]
+	editor = code --wait
+[user]
+	name = trollyxia
+	email = trollyxia@gmail.com
+[credential]
+    helper = store
+[http]
+	proxy = child-prc.intel.com:913
+[https]
+	proxy = child-prc.intel.com:913
+[color]
+    ui = true
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+    unstage = reset HEAD
+    last = log -1
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+    default = upstream
