@@ -4,7 +4,25 @@
 
 ## Git config:
 
-[.gitconfig](.gitconfig)
+My git config: [.gitconfig](.gitconfig)
+
+
+
+## Markdown tool:
+
+A markdown editor: [Typora](https://www.typora.io/)
+
+
+
+## Snipaste:
+
+A screenshot tool and pin the screenshot to the desk: [Snipaste](https://zh.snipaste.com/)
+
+#### Usage:
+
+- `F1` to take a screenshot, `F3` to pin the screenshot to the desk.
+
+- `shift` + `double click` to minimize the picture.
 
 
 
