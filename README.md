@@ -4,7 +4,23 @@
 
 ## Git config:
 
-My git config: [.gitconfig](.gitconfig)
+- My git config: [.gitconfig](.gitconfig)
+
+- To show git branch name in linux directory, add the following code in `~/.bashrc`:
+
+  ```shell
+  function git_branch {
+          branch="`git branch 2>/dev/null | grep "^\*" | sed -e "s/^\*\ //"`"
+          if [ "${branch}" != "" ];then
+                  if [ "${branch}" = "(no branch)" ];then
+                          branch="(`git rev-parse --short HEAD`...)"
+                  fi
+                  echo " ($branch)"
+          fi
+  }
+  
+  export PS1='\u@\h \[\033[01;36m\]\w\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
+  ```
 
 
 
