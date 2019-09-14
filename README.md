@@ -30,7 +30,7 @@ A markdown editor: [Typora](https://www.typora.io/)
 
 
 
-## Snipaste:
+## Screenshot tool:
 
 A screenshot tool and pin the screenshot to the desk: [Snipaste](https://zh.snipaste.com/)
 
