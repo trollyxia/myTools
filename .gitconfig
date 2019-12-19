@@ -6,9 +6,9 @@
 [credential]
     helper = store
 [http]
-	proxy = child-prc.intel.com:913
+	proxy = http://child-prc.intel.com:913
 [https]
-	proxy = child-prc.intel.com:913
+	proxy = http://child-prc.intel.com:913
 [color]
     ui = true
 [alias]
