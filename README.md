@@ -64,3 +64,46 @@ git icdiff [options] left_file right_file
 ````
 
 Show differences between files in a two column view.
+
+
+
+## PM tool:
+
+A easy way to switch to your projects on Shell environment: [PM](https://github.com/Angelmmiguel/pm)
+
+#### Installation:
+
+Download the installer and execute it.
+
+```shell
+wget https://raw.githubusercontent.com/Angelmmiguel/pm/master/install.sh
+chmod 755 ./install.sh
+```
+
+#### Usage:
+
+Move to your project directory and add it to `pm`:
+
+```shell
+cd projects/awesome-project
+pm add awesome-project
+```
+
+List stored projects:
+
+```shell
+pm list
+```
+
+To switch into a project:
+
+```shell
+pm go awesome-project
+```
+
+If a project is no longer available, remove it:
+
+```shell
+pm remove awesome-project
+```
+
