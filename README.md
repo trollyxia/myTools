@@ -107,3 +107,10 @@ If a project is no longer available, remove it:
 pm remove awesome-project
 ```
 
+
+
+## Windows console emulator:
+
+[cmder](http://cmder.net/) or [Hyper](https://hyper.is/)
+
+
