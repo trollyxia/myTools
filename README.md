@@ -114,3 +114,8 @@ pm remove awesome-project
 [cmder](http://cmder.net/) or [Hyper](https://hyper.is/)
 
 
+
+## Mind Mapping:
+
+[XMind](https://www.xmind.cn/)
+
