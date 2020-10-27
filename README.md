@@ -2,6 +2,19 @@
 
 
 
+## Terminal:
+
+MobaXterm: [download](https://mobaxterm.mobatek.net/download.html)
+
+
+
+## vim config:
+
+- Add `export TERM='xterm-256color'` in `~/.bashrc`
+- My vim config: [vim.tar.gz](vim.tar.gz). This includes a `.vimrc` file and a `.vim` dir. To use it, just unpack it to your home directory.
+
+
+
 ## Git config:
 
 - My git config: [.gitconfig](.gitconfig)
